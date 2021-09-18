@@ -15,36 +15,17 @@ main {
     padding: 25px;
     flex: 1 0 auto;
     max-width: 750px;
-} 
+}
 
 img {
-    max-width: 60%;
-} 
+    max-width: 100%;
+}
 
 /* Homepage */
-
-.image-container
-{
-    position: fixed;
-    left: 6%;
-    /* z-index: 10; */
-    padding-top: 2%;
-    max-width: 45%; /* Maximum width */
-    max-height: 800px
-}
 
 .intro {
     position: relative;
     max-width: 800px; /* Maximum width */
-    margin: 0 auto; /* Center it */
-}
-
-
-.content {
-    position: fixed;
-    left: 45%;
-    max-width: 38%; /* Maximum width */
-    padding-top: 8%;
     margin: 0 auto; /* Center it */
 }
 
@@ -64,10 +45,10 @@ img {
     text-align: justify;
 }
 
-.intro > p {
-    color:#696969;
-    font-size: 18px;
-    text-align: justify;
+/* Page content */
+
+.content {
+    padding-top: 20px;
 }
 
 /* Profile picture */
