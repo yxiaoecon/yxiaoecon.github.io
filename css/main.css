@@ -162,10 +162,10 @@ img {
 .content-area .content-area-inner
 {
     position: relative;
-    left: 50%;
+    left: 40%;
     
-    width: 70%;
-    padding: 0 20px;
+    width: 100%;
+    padding: 0 10%;
     overflow-x: hidden;
 }
 
