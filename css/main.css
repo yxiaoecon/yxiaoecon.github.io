@@ -1,5 +1,8 @@
 html, body {
     height: 100%;
+    /* margin: auto;
+    width: 960px;
+    overflow: hidden; */
 }
 
 body {
@@ -9,12 +12,16 @@ body {
     flex-direction: column;
 }
 
+
+
 main {
     margin: auto;
     padding-top: 55px;
     padding: 25px;
-    flex: 1 0 auto;
-    max-width: 750px;
+    /* flex: 1 0 auto; */
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
 }
 
 img {
@@ -23,27 +30,177 @@ img {
 
 /* Homepage */
 
+/* .image-container
+{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+
+    width: 50%;
+    height: 100%;
+}
+
+.image-container .background-img
+{
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 30%;
+
+    width: 50%;
+    height: 50%;
+
+    -webkit-transition: opacity 1s ease;
+         -o-transition: opacity 1s ease;
+            transition: opacity 1s ease;
+
+    background: url(../Yun.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:1200px)
+{
+    .image-container
+    {
+        position: relative;
+        z-index: 10;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100vh;
+    }
+
+} */
+
 .image-container
 {
     position: fixed;
-    left: 6%;
-    padding-top: 2%;
-    max-width: 45%; 
-    max-height: 800px
+    z-index: 10;
+    top: 0;
+    left: 0;
+
+    width: 50%;
+    height: 100%;
 }
 
-.content-home {
-    position: fixed;
-    left: 50%;
-    max-width: 38%; 
-    padding-top: 8%;
-    margin: 0 auto; 
+.image-container .background-img
+{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 25%;
+
+    width: 50%;
+    height: 50%;
+
+    -webkit-transition: opacity 1s ease;
+         -o-transition: opacity 1s ease;
+            transition: opacity 1s ease;
+
+    background: url(../Yun.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.intro {
+@media (max-width:1200px)
+{
+    .image-container
+    {
+        position: relative;
+        z-index: 10;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+
+.content-area
+{
     position: relative;
-    max-width: 1200px; /* Maximum width */
-    margin: 0 auto; /* Center it */
+    left: 0;
+
+    width: 100%;
+}
+
+.content-area .content-area-inner
+{
+    position: relative;
+    left: 50%;
+    
+    width: 70%;
+    padding: 0 20px;
+    overflow-x: hidden;
+}
+
+.content-area .content-area-inner section
+{
+    max-width: 800px;
+    margin: 0 auto 18vh auto;
+}
+
+.content-area .content-area-inner section:last-child
+{
+    margin-bottom: 10vh;
+}
+
+.content-area .content-area-inner section h3.headline
+{
+    margin-bottom: 1.2em;
+}
+
+@media (max-width:1200px)
+{
+    .content-area .content-area-inner
+    {
+        left: 0;
+
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+
+#intro
+{
+    position: relative;
+    /* top: 0%; */
+
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+#intro .container-mid
+{
+    /* position: absolute; */
+    /* top: 10%; */
+
+    /* width: 100%;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%); */
+}
+
+#intro .container-mid p.subline
+{
+    font-size: 2.2rem;
+    line-height: 1.6em;
+
+    margin-top: 2em;
+    margin-bottom: 2.2em;
+}
+
+
+/* .intro {
+    position: relative;
+    max-width: 1200px;  
+    margin: 0 auto;  
 }
 
 
@@ -62,7 +219,7 @@ img {
     color:#696969;
     font-size: 19px;
     text-align: justify;
-}
+} */
 
 /* Page content */
 
