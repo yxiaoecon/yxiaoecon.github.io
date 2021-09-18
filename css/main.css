@@ -136,10 +136,10 @@ img {
         position: absolute;
         z-index: 1;
         top: 10%;
-        left: 10%;
+        left: 0%;
 
-        width: 80%;
-        height: 80%;
+        width: 30%;
+        height: 30%;
 
         -webkit-transition: opacity 1s ease;
             -o-transition: opacity 1s ease;
