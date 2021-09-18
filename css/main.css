@@ -15,40 +15,54 @@ main {
     padding: 25px;
     flex: 1 0 auto;
     max-width: 750px;
-}
+} 
 
 img {
-    max-width: 100%;
-}
+    max-width: 60%;
+} 
 
 /* Homepage */
 
-.intro {
-    position: relative;
-    max-width: 800px; /* Maximum width */
+.image-container
+{
+    position: fixed;
+    left: 6%;
+    /* z-index: 10; */
+    padding-top: 2%;
+    max-width: 45%; /* Maximum width */
+    max-height: 800px
+}
+
+
+
+.content {
+    position: fixed;
+    left: 45%;
+    max-width: 38%; /* Maximum width */
+    padding-top: 8%;
     margin: 0 auto; /* Center it */
 }
 
-.intro > h2 {
+.content > h2 {
     color: #757575;
     font-size: 3vmin;
 }
 
-.intro > h3 {
+.content > h3 {
     color:black;
     font-size: 25px;
 }
 
-.intro > h4 {
+.content > h4 {
     color:#696969;
     font-size: 19px;
     text-align: justify;
 }
 
-/* Page content */
-
-.content {
-    padding-top: 20px;
+.content > p {
+    color:#696969;
+    font-size: 18px;
+    text-align: justify;
 }
 
 /* Profile picture */
