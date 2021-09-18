@@ -23,11 +23,30 @@ img {
 
 /* Homepage */
 
+.image-container
+{
+    position: fixed;
+    left: 6%;
+    padding-top: 2%;
+    max-width: 45%; 
+    max-height: 800px
+}
+
+.content-home {
+    position: fixed;
+    left: 45%;
+    max-width: 38%; 
+    padding-top: 8%;
+    margin: 0 auto; 
+}
+
 .intro {
     position: relative;
-    max-width: 800px; /* Maximum width */
+    max-width: 1200px; /* Maximum width */
     margin: 0 auto; /* Center it */
 }
+
+
 
 .intro > h2 {
     color: #757575;
