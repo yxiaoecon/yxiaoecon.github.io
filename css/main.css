@@ -135,8 +135,8 @@ img {
     {
         position: absolute;
         z-index: 1;
-        top: 10%;
-        left: 0%;
+        top: 0;
+        left: 0;
 
         width: 30%;
         height: 30%;
