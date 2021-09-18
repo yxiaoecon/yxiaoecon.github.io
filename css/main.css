@@ -136,7 +136,7 @@ img {
         position: absolute;
         z-index: 1;
         top: 10%;
-        left: 10%;
+        left: 0;
 
         width: 100%;
 
