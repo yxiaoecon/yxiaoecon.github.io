@@ -46,7 +46,7 @@ img {
     position: absolute;
     z-index: 1;
     top: 20%;
-    left: 30%;
+    left: 35%;
 
     width: 50%;
     height: 50%;
@@ -60,7 +60,7 @@ img {
     background-size: cover;
 }
 
-@media (max-width:1200px)
+@media (max-width:1300px)
 {
     .image-container
     {
@@ -91,7 +91,7 @@ img {
     position: absolute;
     z-index: 1;
     top: 25%;
-    left: 25%;
+    left: 35%;
 
     width: 50%;
     height: 50%;
@@ -105,7 +105,7 @@ img {
     background-size: cover;
 }
 
-@media (max-width:1200px)
+@media (max-width:1300px)
 {
     .image-container
     {
@@ -185,11 +185,12 @@ img {
     margin-bottom: 1.2em;
 }
 
-@media (max-width:1200px)
+@media (max-width:1300px)
 {
     .content-area .content-area-inner
     {
         left: 0;
+        top: 0;
 
         width: 100%;
         padding: 0 20px;
