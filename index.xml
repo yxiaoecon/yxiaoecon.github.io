@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yun Xiao UVA</title>
-    <link>https://yunxiao.nl/</link>
+    <link>https://yxiaoecon.github.io/</link>
     <description>Recent content on Yun Xiao UVA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jun 2020 21:41:08 +0200</lastBuildDate>
     
-	<atom:link href="https://yunxiao.nl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yxiaoecon.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://yunxiao.nl/cv/</link>
+      <link>https://yxiaoecon.github.io/cv/</link>
       <pubDate>Sat, 06 Jun 2020 21:41:08 +0200</pubDate>
       
-      <guid>https://yunxiao.nl/cv/</guid>
+      <guid>https://yxiaoecon.github.io/cv/</guid>
       <description> </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yunxiao.nl/test/</link>
+      <link>https://yxiaoecon.github.io/test/</link>
       <pubDate>Sat, 06 Jun 2020 21:41:08 +0200</pubDate>
       
-      <guid>https://yunxiao.nl/test/</guid>
+      <guid>https://yxiaoecon.github.io/test/</guid>
       <description> This browser does not support PDFs. Please download the PDF to view it: Download PDF.   </description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>https://yunxiao.nl/teaching/</link>
+      <link>https://yxiaoecon.github.io/teaching/</link>
       <pubDate>Mon, 18 May 2020 22:40:09 +0200</pubDate>
       
-      <guid>https://yunxiao.nl/teaching/</guid>
+      <guid>https://yxiaoecon.github.io/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yunxiao.nl/research/</link>
+      <link>https://yxiaoecon.github.io/research/</link>
       <pubDate>Mon, 18 May 2020 22:39:46 +0200</pubDate>
       
-      <guid>https://yunxiao.nl/research/</guid>
+      <guid>https://yxiaoecon.github.io/research/</guid>
       <description>research   code{white-space: pre-wrap;} span.smallcaps{font-variant: small-caps;} span.underline{text-decoration: underline;} div.column{display: inline-block; vertical-align: top; width: 50%;} div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;} ul.task-list{list-style: none;} br{display: block;content: &#34;&#34;;margin-top: 25px; }      Work in Progress    Spillovers in childbearing decisions and fertility transitions: Evidence from China   with Pauline Rossi Abstract: This article uses Chinese family planning policies to quantify and explain spillovers in fertility decisions. We test whether ethnic minorities decreased their fertility in response to the policies, although only the majority ethnic group, the Han Chinese, were subject to birth quotas.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://yunxiao.nl/about/</link>
+      <link>https://yxiaoecon.github.io/about/</link>
       <pubDate>Mon, 18 May 2020 22:38:29 +0200</pubDate>
       
-      <guid>https://yunxiao.nl/about/</guid>
+      <guid>https://yxiaoecon.github.io/about/</guid>
       <description></description>
     </item>
     
