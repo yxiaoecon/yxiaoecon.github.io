@@ -83,7 +83,7 @@ img {
     left: 0;
 
     width: 50%;
-    height: 50%;
+    height: 100%;
 }
 
 .image-container .background-img
@@ -109,7 +109,7 @@ img {
 {
     .image-container
     {
-        position: relative;
+        position: absolute;
         z-index: 10;
         top: 0;
         left: 0;
