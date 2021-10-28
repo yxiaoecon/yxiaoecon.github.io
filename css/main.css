@@ -105,11 +105,11 @@ img {
     background-size: cover;
 }
 
-@media (max-width:1300px)
+@media (max-width:1100px)
 {
     .image-container
     {
-        position: absolute;
+        position: relative;
         z-index: 10;
         top: 0;
         left: 0;
